@@ -6,4 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault(); // Previene el comportamiento predeterminado del enlace
         numeroContacto.style.display = "inline"; // Muestra el número de contacto
     });
+
+    // Agrega una función para redirigir a la página de productos
+    var productosLink = document.getElementById("productos.html");
+    productosLink.addEventListener("click", function(event) {
+        event.preventDefault(); // Previene el comportamiento predeterminado del enlace
+        window.location.href = "productos.html"; // Redirige a la página de productos
+    });
 });
