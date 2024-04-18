@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Agrega una función para redirigir a la página de productos
-    var productosLink = document.getElementById("productos.html");
+    var productosLink = document.getElementById("productos");
     productosLink.addEventListener("click", function(event) {
         event.preventDefault(); // Previene el comportamiento predeterminado del enlace
         window.location.href = "productos.html"; // Redirige a la página de productos
